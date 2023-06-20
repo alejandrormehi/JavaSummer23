@@ -93,17 +93,17 @@ function balance (ingresos, gastos){
 };
 balance(20,100)*/
 
-/* EJERCICIO 3
- Tipos de barcos 
+/*EJERCICIO 3
+ Tipos de barcos */
 
-const botes = function(...valores){
-    valores.forEach(element=>{
-        console.log(element)
-    });
-};
-botes ('bote', 'acorazado', 'crucero',"submarino"); 
+// const botes = function(...valores){
+//     valores.forEach(element=>{
+//         console.log(element)
+//     });
+// };
+// botes ('bote', 'acorazado', 'crucero',"submarino"); 
 
-*/
+
 /* FUNCTION WITH NAME AND NO RETURN 
 
 function balance (ingresos, gastos){
