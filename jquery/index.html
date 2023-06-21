@@ -8,21 +8,38 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 </head>
-<body class="bg-dark">
-
+<body>
     <div class="container d-flex">
-        <div class="row justify-content-center align-items-center vh-100">
-       <div class="card"> 
-        <div class="card-body">
-            <h1>Add Item</h1>
-            <button id="push" type="button" onclick="pushArray();">Push</button>
-            <button id="unshift" type="button" onclick="unshift();">unshift</button>
-            <button id="insert">insert at</button>
-            <p id="result"></p>
+
+    <div class="row">
+        <div class="justify-content-center align-items-center vh-100">
+            <div class="card  border border-danger"> 
+                 <div class="card-body">
+                    <h1>Add Item</h1>
+                    <button id="push" type="button" onclick="pushArray();">Push</button>
+                    <button id="unshift" type="button" onclick="unshift();">Unshift</button>
+                    <button id="insert" type="button" >Insert at</button>
+                    <input  id="inputNum" type="number">
+                    <p id="result"></p>
+                 </div>
+            </div>
         </div>
-       </div>
     </div>
-    </div>
+
+    <div class="row">
+        <div class=" justify-content-center align-items-center vh-100">
+            <div class="card  border border-danger"> 
+                <div class="card-body">
+                    <h1>Remove Item</h1>
+                    <button id="pop" type="button" onclick="popArray();">Pop</button>
+                    <button id="shift" type="button" onclick="shift();">Shift</button>
+                    <button id="remove" type="button" >Remove at</button>
+                    <input  id="removeNum2" type="number">
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
 
     
     <script src="./jquery-3.7.0.min.js"></script>
