@@ -23,7 +23,42 @@
         </form>
 
         <div class="container py-3 h-100 bg-danger" id="scenario">
-            
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex flex-column">
+                        <button class="boton-game bg-warning d-flex align-items-center justify-content-center mb-2" type="button" id="piedra" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="\jquery\assets\piedra.png" alt="piedra del juego" style="max-width: 100%; max-height: 100%;">
+                        </button>
+
+                        <button class="boton-game bg-warning d-flex align-items-center justify-content-center mb-2" type="button" id="papel" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="\jquery\assets\papel.png" alt="papel del juego" style="max-width: 100%; max-height: 100%;">
+                        </button>
+
+                        <button class="boton-game bg-warning d-flex align-items-center justify-content-center" type="button" id="tijera" style="width: 100px; height: 100px;">
+                            <img class="img-fluid" src="\jquery\assets\tijera.png" alt="tijera del juego" style="max-width: 100%; max-height: 100%;">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class=" bg-primary d-flex ">
+                        <h2>Has elegido</h2>
+                        <p id="elecUser"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class=" bg-success d-flex">
+                        <h2>La maquina ha elegido</h2>
+                        <p id="elecMach"></p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="container ">
